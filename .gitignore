@@ -1,0 +1,9 @@
+*.md
+*.v1-backup
+*.v2-backup
+index.html.v1-backup
+index.html.v2-backup
+css/*.v1-backup
+css/*.v2-backup
+js/*.v1-backup
+js/*.v2-backup
