@@ -432,8 +432,11 @@
   window.i18nT = t;
   window.setLang = setLang;
 
-  const btn = document.querySelector('.lang-toggle');
-  if (btn) btn.addEventListener('click', () => setLang(lang === 'en' ? 'es' : 'en'));
-
-  apply();
+  try {
+    const btn = document.querySelector('.lang-toggle');
+    if (btn) btn.addEventListener('click', () => setLang(lang === 'en' ? 'es' : 'en'));
+    apply();
+  } catch (e) {
+    /* never block anything else: the page stays readable in English */
+  }
 })();
