@@ -7,3 +7,7 @@ css/*.v1-backup
 css/*.v2-backup
 js/*.v1-backup
 js/*.v2-backup
+*.v3-backup
+index.html.v3-backup
+css/*.v3-backup
+js/*.v3-backup

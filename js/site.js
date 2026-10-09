@@ -380,7 +380,7 @@
         }
         return;
       }
-      if (status) status.textContent = 'Sending…';
+      if (status) status.textContent = (window.i18nT ? window.i18nT('f.sending') : 'Sending…');
     });
   }
 
@@ -393,6 +393,6 @@
   /* ---------- post-submit thanks (FormSubmit redirects back with ?sent=1) ---------- */
   if (new URLSearchParams(location.search).get('sent') === '1') {
     const status = $('#form-status');
-    if (status) status.innerHTML = '<b style="color:#34d399">Brief received — thank you.</b> We read every inquiry and reply within one business day.';
+    if (status) status.innerHTML = (window.i18nT ? window.i18nT('f.sent') : '<b style="color:#34d399">Brief received — thank you.</b> We read every inquiry and reply within one business day.');
   }
 })();

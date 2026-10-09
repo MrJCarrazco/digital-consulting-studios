@@ -615,3 +615,23 @@ footer li.muted{color:var(--txt-dim)}
   transition:background .25s,border-color .25s,transform .25s var(--ease);
 }
 .case-link:hover{background:rgba(110,231,255,.14);border-color:var(--c1);transform:translateY(-2px)}
+
+/* ---------- EN|ES language toggle (nav pill) ---------- */
+.lang-toggle{
+  display:inline-flex;align-items:center;gap:7px;flex:none;
+  margin-left:auto;padding:7px 13px;border-radius:999px;cursor:pointer;
+  background:rgba(255,255,255,.05);border:1px solid var(--line-2);
+  font:inherit;font-size:.8rem;font-weight:650;letter-spacing:.06em;
+  color:var(--txt-dim);backdrop-filter:blur(8px);
+  transition:border-color .25s,background .25s;
+}
+.lang-toggle:hover{border-color:var(--c1);background:rgba(110,231,255,.09)}
+.lang-toggle .lt-sep{opacity:.35}
+.lang-toggle [data-lang-opt]{transition:color .25s}
+.lang-toggle [data-lang-opt].on{color:var(--txt)}
+@media (max-width:860px){
+  .lang-toggle{margin-right:2px}
+}
+
+/* ---------- work-card canvases: scale to card width (mobile overflow fix) ---------- */
+.case-shot canvas[data-viz]{width:100%;height:100%;display:block;max-width:100%}

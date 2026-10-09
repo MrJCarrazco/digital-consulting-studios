@@ -10,6 +10,9 @@
 <meta property="og:description" content="Websites, automation and content systems with fixed pricing. Agency output, no agency overhead.">
 <meta property="og:type" content="website">
 <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="en" href="https://mrjcarrazco.github.io/digital-consulting-studios/">
+<link rel="alternate" hreflang="es" href="https://mrjcarrazco.github.io/digital-consulting-studios/?lang=es">
+<link rel="alternate" hreflang="x-default" href="https://mrjcarrazco.github.io/digital-consulting-studios/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -23,19 +26,20 @@
 <!-- ============ NAV ============ -->
 <nav class="nav">
   <a class="brand" href="#top">
-    <img class="logo-mark" src="assets/logo.svg" alt="Digital Consulting Studios logo">
+    <img class="logo-mark" src="assets/logo.svg" alt="Digital Consulting Studios logo" data-i18n-alt="a.logo">
     <span class="brand-text">
       <b>Digital Consulting</b>
       <span>Studios</span>
     </span>
   </a>
-  <button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
+  <button class="lang-toggle" type="button" aria-label="Switch language" data-i18n-aria="a.lang"><span data-lang-opt="en" class="on">EN</span><span class="lt-sep" aria-hidden="true">|</span><span data-lang-opt="es">ES</span></button>
+  <button class="nav-toggle" aria-label="Menu" data-i18n-aria="a.menu" aria-expanded="false">&#9776;</button>
   <div class="nav-links">
-    <a href="#work">Work</a>
-    <a href="#services">Services</a>
-    <a href="#pricing">Pricing</a>
-    <a href="#care">Care Plans</a>
-    <a href="#contact" class="btn btn-primary">Get a quote</a>
+    <a href="#work" data-i18n="nav.work">Work</a>
+    <a href="#services" data-i18n="nav.services">Services</a>
+    <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+    <a href="#care" data-i18n="nav.care">Care Plans</a>
+    <a href="#contact" class="btn btn-primary" data-i18n="nav.quote">Get a quote</a>
   </div>
 </nav>
 
@@ -50,22 +54,22 @@
 
   <div class="wrap">
     <div class="hero-inner">
-      <span class="pill reveal"><span class="dot" aria-hidden="true"></span> Studio open — taking new projects</span>
-      <h1 class="rise">Websites and systems that <span class="grad">win you the job</span>, built without agency overhead.</h1>
-      <p class="lead reveal d2">
+      <span class="pill reveal"><span class="dot" aria-hidden="true"></span> <span data-i18n="hero.pill">Studio open — taking new projects</span></span>
+      <h1 class="rise" data-i18n="hero.h1">Websites and systems that <span class="grad">win you the job</span>, built without agency overhead.</h1>
+      <p class="lead reveal d2" data-i18n="hero.lead">
         Websites, automation pipelines and content systems for growing businesses.
         Fixed prices, written scope, and a care plan that keeps everything running after launch.
       </p>
       <div class="btn-row reveal d3">
-        <a href="#contact" class="btn btn-primary">Get a fixed-price quote →</a>
-        <a href="#work" class="btn btn-ghost">See the work</a>
+        <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">Get a fixed-price quote →</a>
+        <a href="#work" class="btn btn-ghost" data-i18n="hero.cta2">See the work</a>
       </div>
 
       <div class="metrics reveal d4">
-        <div class="metric"><b data-count="6" data-suffix="">0</b><span>Service lines</span></div>
-        <div class="metric"><b data-count="40" data-suffix="+">0</b><span>Products shipped</span></div>
-        <div class="metric"><b data-count="6" data-suffix="">0</b><span>Platforms published</span></div>
-        <div class="metric"><b data-count="100" data-suffix="%">0</b><span>Fixed-price work</span></div>
+        <div class="metric"><b data-count="6" data-suffix="">0</b><span data-i18n="m1">Service lines</span></div>
+        <div class="metric"><b data-count="40" data-suffix="+">0</b><span data-i18n="m2">Products shipped</span></div>
+        <div class="metric"><b data-count="6" data-suffix="">0</b><span data-i18n="m3">Platforms published</span></div>
+        <div class="metric"><b data-count="100" data-suffix="%">0</b><span data-i18n="m4">Fixed-price work</span></div>
       </div>
     </div>
   </div>
@@ -74,12 +78,12 @@
 <!-- ============ MARQUEE (kept from v1) ============ -->
 <div class="marquee" aria-hidden="true">
   <div class="marquee-track">
-    <span>Business Websites</span><span>Automation Pipelines</span><span>Content Systems</span>
-    <span>Game &amp; Interactive</span><span>Video &amp; Motion</span><span>Digital Products</span>
-    <span>Local SEO</span><span>Care Plans</span><span>Fixed Pricing</span>
-    <span>Business Websites</span><span>Automation Pipelines</span><span>Content Systems</span>
-    <span>Game &amp; Interactive</span><span>Video &amp; Motion</span><span>Digital Products</span>
-    <span>Local SEO</span><span>Care Plans</span><span>Fixed Pricing</span>
+    <span data-i18n="mq1">Business Websites</span><span data-i18n="mq2">Automation Pipelines</span><span data-i18n="mq3">Content Systems</span>
+    <span data-i18n="mq4">Game &amp; Interactive</span><span data-i18n="mq5">Video &amp; Motion</span><span data-i18n="mq6">Digital Products</span>
+    <span data-i18n="mq7">Local SEO</span><span data-i18n="mq8">Care Plans</span><span data-i18n="mq9">Fixed Pricing</span>
+    <span data-i18n="mq1">Business Websites</span><span data-i18n="mq2">Automation Pipelines</span><span data-i18n="mq3">Content Systems</span>
+    <span data-i18n="mq4">Game &amp; Interactive</span><span data-i18n="mq5">Video &amp; Motion</span><span data-i18n="mq6">Digital Products</span>
+    <span data-i18n="mq7">Local SEO</span><span data-i18n="mq8">Care Plans</span><span data-i18n="mq9">Fixed Pricing</span>
   </div>
 </div>
 
@@ -88,9 +92,9 @@
   <div class="wrap">
     <div class="sec-head">
       <span class="sec-n" aria-hidden="true">01</span>
-      <span class="eyebrow reveal">Selected work</span>
-      <h2 class="reveal d1">Built, shipped, <span class="grad">in production</span>.</h2>
-      <p class="lead reveal d2">
+      <span class="eyebrow reveal" data-i18n="work.eyebrow">Selected work</span>
+      <h2 class="reveal d1" data-i18n="work.h2">Built, shipped, <span class="grad">in production</span>.</h2>
+      <p class="lead reveal d2" data-i18n="work.lead">
         Live systems, not mockups. Each one is running right now — click through and judge it yourself.
       </p>
     </div>
@@ -98,53 +102,53 @@
     <div class="grid c3">
       <article class="case glow-card reveal">
         <div class="case-shot">
-          <canvas data-viz="flow" aria-label="Animated pipeline visual"></canvas>
+          <canvas data-viz="flow" aria-label="Animated pipeline visual" data-i18n-aria="a.viz1"></canvas>
           <!-- TODO(Juan): screenshot -> assets/proof/drywall.webp (replaces this canvas) -->
         </div>
         <div class="case-body">
           <h3>A Five Drywall</h3>
-          <p class="case-meta">Drywall contractor · Wasilla &amp; Anchorage</p>
-          <p><b>Problem:</b> An established crew with no web presence — every lead came by word of mouth, and nothing showed up in search.</p>
-          <p><b>Built:</b> Full marketing site with services, project gallery and FAQ, click-to-call in the header, a free-estimate banner, and a complete English/Spanish translation for the valley's bilingual customer base.</p>
-          <p class="case-note">Live now — click through and try it on your phone.</p>
-          <div class="tags"><span class="tag">Bilingual EN/ES</span><span class="tag">Click-to-call</span><span class="tag">Local SEO</span></div>
-          <a class="case-link" href="https://mrjcarrazco.github.io/afivestar/" target="_blank" rel="noopener">Visit the live site <span aria-hidden="true">&#8599;</span></a>
+          <p class="case-meta" data-i18n="case1.meta">Drywall contractor · Wasilla &amp; Anchorage</p>
+          <p data-i18n="case1.problem"><b>Problem:</b> An established crew with no web presence — every lead came by word of mouth, and nothing showed up in search.</p>
+          <p data-i18n="case1.built"><b>Built:</b> Full marketing site with services, project gallery and FAQ, click-to-call in the header, a free-estimate banner, and a complete English/Spanish translation for the valley's bilingual customer base.</p>
+          <p class="case-note" data-i18n="case1.note">Live now — click through and try it on your phone.</p>
+          <div class="tags"><span class="tag" data-i18n="case1.tag1">Bilingual EN/ES</span><span class="tag" data-i18n="case1.tag2">Click-to-call</span><span class="tag" data-i18n="case1.tag3">Local SEO</span></div>
+          <a class="case-link" href="https://mrjcarrazco.github.io/afivestar/" target="_blank" rel="noopener" data-i18n="case1.link">Visit the live site <span aria-hidden="true">&#8599;</span></a>
         </div>
       </article>
 
       <article class="case glow-card reveal d1">
         <div class="case-shot">
-          <canvas data-viz="growth" aria-label="Animated growth chart visual"></canvas>
+          <canvas data-viz="growth" aria-label="Animated growth chart visual" data-i18n-aria="a.viz2"></canvas>
           <!-- TODO(Juan): screenshot -> assets/proof/beautyluxe.webp -->
         </div>
         <div class="case-body">
           <h3>Beauty Luxe AK</h3>
-          <p class="case-meta">Lash &amp; wax studio · Wasilla</p>
-          <p><b>Problem:</b> A licensed artist with 58 five-star reviews and no website — all that social proof was invisible to anyone searching.</p>
-          <p><b>Built:</b> Next.js studio site with animated service menu, before-and-after gallery, reviews, and Book Now buttons wired straight into her existing GlossGenius booking system — no workflow change for her.</p>
-          <p class="case-note">Live on her own domain — booking and payments stay on the tools she already uses.</p>
-          <div class="tags"><span class="tag">Next.js</span><span class="tag">Custom domain</span><span class="tag">Booking integration</span></div>
-          <a class="case-link" href="https://beautyluxeak.com" target="_blank" rel="noopener">Visit beautyluxeak.com <span aria-hidden="true">&#8599;</span></a>
+          <p class="case-meta" data-i18n="case2.meta">Lash &amp; wax studio · Wasilla</p>
+          <p data-i18n="case2.problem"><b>Problem:</b> A licensed artist with 58 five-star reviews and no website — all that social proof was invisible to anyone searching.</p>
+          <p data-i18n="case2.built"><b>Built:</b> Next.js studio site with animated service menu, before-and-after gallery, reviews, and Book Now buttons wired straight into her existing GlossGenius booking system — no workflow change for her.</p>
+          <p class="case-note" data-i18n="case2.note">Live on her own domain — booking and payments stay on the tools she already uses.</p>
+          <div class="tags"><span class="tag" data-i18n="case2.tag1">Next.js</span><span class="tag" data-i18n="case2.tag2">Custom domain</span><span class="tag" data-i18n="case2.tag3">Booking integration</span></div>
+          <a class="case-link" href="https://beautyluxeak.com" target="_blank" rel="noopener" data-i18n="case2.link">Visit beautyluxeak.com <span aria-hidden="true">&#8599;</span></a>
         </div>
       </article>
 
       <article class="case glow-card reveal d2">
         <div class="case-shot">
-          <canvas data-viz="cube" aria-label="Rotating 3D wireframe visual"></canvas>
+          <canvas data-viz="cube" aria-label="Rotating 3D wireframe visual" data-i18n-aria="a.viz3"></canvas>
         </div>
         <div class="case-body">
           <h3>Empire of Gods</h3>
-          <p class="case-meta">Browser game · in-house R&amp;D</p>
-          <p><b>Problem:</b> We wanted a hard technical proving ground, not another portfolio piece.</p>
-          <p><b>Built:</b> A playable browser strategy game — Node backend, in-house pixel-art pipeline, automated deploy, and a live service kept up by health watchdogs.</p>
-          <p class="case-note">Play it free. If this runs unattended, your website is not a challenge.</p>
-          <div class="tags"><span class="tag">Node</span><span class="tag">Game dev</span><span class="tag">Automated deploy</span></div>
-          <a class="case-link" href="https://mrjcarrazco.github.io/eog/" target="_blank" rel="noopener">Play the demo <span aria-hidden="true">&#8599;</span></a>
+          <p class="case-meta" data-i18n="case3.meta">Browser game · in-house R&amp;D</p>
+          <p data-i18n="case3.problem"><b>Problem:</b> We wanted a hard technical proving ground, not another portfolio piece.</p>
+          <p data-i18n="case3.built"><b>Built:</b> A playable browser strategy game — Node backend, in-house pixel-art pipeline, automated deploy, and a live service kept up by health watchdogs.</p>
+          <p class="case-note" data-i18n="case3.note">Play it free. If this runs unattended, your website is not a challenge.</p>
+          <div class="tags"><span class="tag" data-i18n="case3.tag1">Node</span><span class="tag" data-i18n="case3.tag2">Game dev</span><span class="tag" data-i18n="case3.tag3">Automated deploy</span></div>
+          <a class="case-link" href="https://mrjcarrazco.github.io/eog/" target="_blank" rel="noopener" data-i18n="case3.link">Play the demo <span aria-hidden="true">&#8599;</span></a>
         </div>
       </article>
     </div>
 
-    <p class="also reveal d3">
+    <p class="also reveal d3" data-i18n="work.also">
       Also shipped in-house: 40+ published titles through an automated generate-and-verify pipeline,
       a multi-platform content repurposing engine, and print-on-demand product automation.
       These are our own products — proof the systems work.
@@ -157,9 +161,9 @@
   <div class="wrap">
     <div class="sec-head">
       <span class="sec-n" aria-hidden="true">02</span>
-      <span class="eyebrow reveal">What we do</span>
-      <h2 class="reveal d1">Three specialisms. <span class="grad">Three more</span> when you need them.</h2>
-      <p class="lead reveal d2">
+      <span class="eyebrow reveal" data-i18n="sv.eyebrow">What we do</span>
+      <h2 class="reveal d1" data-i18n="sv.h2">Three specialisms. <span class="grad">Three more</span> when you need them.</h2>
+      <p class="lead reveal d2" data-i18n="sv.lead">
         We lead with what we do best. The rest is there for when your business grows into it.
       </p>
     </div>
@@ -167,33 +171,33 @@
     <div class="grid c3">
       <article class="card card-top k1 glow-card reveal">
         <div class="ico" aria-hidden="true">&#127968;</div>
-        <h3>Business Websites</h3>
-        <p>Fast, mobile-first sites for trade and service businesses. Click-to-call, service-area pages, Google Business Profile, review requests. Built to turn a search into a phone call.</p>
-        <div class="tags"><span class="tag">Trades</span><span class="tag">Local SEO</span><span class="tag">Mobile-first</span></div>
+        <h3 data-i18n="s1.h3">Business Websites</h3>
+        <p data-i18n="s1.p">Fast, mobile-first sites for trade and service businesses. Click-to-call, service-area pages, Google Business Profile, review requests. Built to turn a search into a phone call.</p>
+        <div class="tags"><span class="tag" data-i18n="s1.tag1">Trades</span><span class="tag" data-i18n="s1.tag2">Local SEO</span><span class="tag" data-i18n="s1.tag3">Mobile-first</span></div>
       </article>
 
       <article class="card card-top k2 glow-card reveal d1">
         <div class="ico" aria-hidden="true">&#9889;</div>
-        <h3>Automation &amp; Pipelines</h3>
-        <p>The repetitive work, handled: lead follow-up, missed-call text-back, reporting, publishing, and moving data between systems that don't talk to each other.</p>
-        <div class="tags"><span class="tag">n8n</span><span class="tag">APIs</span><span class="tag">Python</span></div>
+        <h3 data-i18n="s2.h3">Automation &amp; Pipelines</h3>
+        <p data-i18n="s2.p">The repetitive work, handled: lead follow-up, missed-call text-back, reporting, publishing, and moving data between systems that don't talk to each other.</p>
+        <div class="tags"><span class="tag" data-i18n="s2.tag1">n8n</span><span class="tag" data-i18n="s2.tag2">APIs</span><span class="tag" data-i18n="s2.tag3">Python</span></div>
       </article>
 
       <article class="card card-top k4 glow-card reveal d2">
         <div class="ico" aria-hidden="true">&#128221;</div>
-        <h3>Content Systems</h3>
-        <p>One input becomes publish-ready output across every channel, with a human review gate before anything goes live.</p>
-        <div class="tags"><span class="tag">Repurposing</span><span class="tag">Scheduling</span><span class="tag">Review gate</span></div>
+        <h3 data-i18n="s3.h3">Content Systems</h3>
+        <p data-i18n="s3.p">One input becomes publish-ready output across every channel, with a human review gate before anything goes live.</p>
+        <div class="tags"><span class="tag" data-i18n="s3.tag1">Repurposing</span><span class="tag" data-i18n="s3.tag2">Scheduling</span><span class="tag" data-i18n="s3.tag3">Review gate</span></div>
       </article>
     </div>
 
     <div class="upsell reveal d3">
-      <h3>Also available to existing clients</h3>
-      <p>Once your core system is running, these extend it. Most clients add one within the first year.</p>
+      <h3 data-i18n="up.h3">Also available to existing clients</h3>
+      <p data-i18n="up.p">Once your core system is running, these extend it. Most clients add one within the first year.</p>
       <div class="upsell-items">
-        <div class="upsell-item"><b>Game &amp; Interactive</b><span>Playable demos, browser games, interactive experiences and playable ads.</span></div>
-        <div class="upsell-item"><b>Video &amp; Motion</b><span>Short-form verticals, product video, animated explainers, motion identity.</span></div>
-        <div class="upsell-item"><b>Digital Products</b><span>Books, templates, printables and print-on-demand — built, QA'd and published.</span></div>
+        <div class="upsell-item"><b data-i18n="up1.b">Game &amp; Interactive</b><span data-i18n="up1.s">Playable demos, browser games, interactive experiences and playable ads.</span></div>
+        <div class="upsell-item"><b data-i18n="up2.b">Video &amp; Motion</b><span data-i18n="up2.s">Short-form verticals, product video, animated explainers, motion identity.</span></div>
+        <div class="upsell-item"><b data-i18n="up3.b">Digital Products</b><span data-i18n="up3.s">Books, templates, printables and print-on-demand — built, QA'd and published.</span></div>
       </div>
     </div>
   </div>
@@ -204,9 +208,9 @@
   <div class="wrap">
     <div class="sec-head">
       <span class="sec-n" aria-hidden="true">03</span>
-      <span class="eyebrow reveal">Project pricing</span>
-      <h2 class="reveal d1">Fixed prices, <span class="grad">written scope</span>.</h2>
-      <p class="lead reveal d2">
+      <span class="eyebrow reveal" data-i18n="pr.eyebrow">Project pricing</span>
+      <h2 class="reveal d1" data-i18n="pr.h2">Fixed prices, <span class="grad">written scope</span>.</h2>
+      <p class="lead reveal d2" data-i18n="pr.lead">
         No hourly billing, no surprise invoices. You approve scope and price before work starts.
         50% to begin, 50% on delivery. You own everything at launch.
       </p>
@@ -214,52 +218,52 @@
 
     <div class="grid c3 price-grid">
       <article class="price glow-card reveal">
-        <h3>Starter Site</h3>
+        <h3 data-i18n="p1.h3">Starter Site</h3>
         <div class="amount">$1,500</div>
-        <p class="price-sub">Where most local businesses start</p>
+        <p class="price-sub" data-i18n="p1.sub">Where most local businesses start</p>
         <ul>
-          <li>Up to 5 pages</li>
-          <li>Mobile-first, fast by default</li>
-          <li>Click-to-call + contact form</li>
-          <li>Google Business Profile setup</li>
-          <li>2 rounds of revisions</li>
-          <li>First 30 days of Care free</li>
+          <li data-i18n="p1.l1">Up to 5 pages</li>
+          <li data-i18n="p1.l2">Mobile-first, fast by default</li>
+          <li data-i18n="p1.l3">Click-to-call + contact form</li>
+          <li data-i18n="p1.l4">Google Business Profile setup</li>
+          <li data-i18n="p1.l5">2 rounds of revisions</li>
+          <li data-i18n="p1.l6">First 30 days of Care free</li>
         </ul>
-        <a href="#contact" class="btn btn-ghost full">Start here</a>
+        <a href="#contact" class="btn btn-ghost full" data-i18n="p1.cta">Start here</a>
       </article>
 
       <article class="price featured glow-card reveal d1">
-        <span class="price-badge">Most popular</span>
-        <h3>Growth Site</h3>
+        <span class="price-badge" data-i18n="p2.badge">Most popular</span>
+        <h3 data-i18n="p2.h3">Growth Site</h3>
         <div class="amount">$3,500</div>
-        <p class="price-sub">For chasing more service areas</p>
+        <p class="price-sub" data-i18n="p2.sub">For chasing more service areas</p>
         <ul>
-          <li>Up to 10 pages</li>
-          <li>Service-area landing pages</li>
-          <li>Review request automation</li>
-          <li>Missed-call text-back setup</li>
-          <li>Local SEO + schema markup</li>
-          <li>30 days post-launch support</li>
+          <li data-i18n="p2.l1">Up to 10 pages</li>
+          <li data-i18n="p2.l2">Service-area landing pages</li>
+          <li data-i18n="p2.l3">Review request automation</li>
+          <li data-i18n="p2.l4">Missed-call text-back setup</li>
+          <li data-i18n="p2.l5">Local SEO + schema markup</li>
+          <li data-i18n="p2.l6">30 days post-launch support</li>
         </ul>
-        <a href="#contact" class="btn btn-primary full">Get a quote</a>
+        <a href="#contact" class="btn btn-primary full" data-i18n="nav.quote">Get a quote</a>
       </article>
 
       <article class="price glow-card reveal d2">
-        <h3>Site + Automation</h3>
+        <h3 data-i18n="p3.h3">Site + Automation</h3>
         <div class="amount">$5,000</div>
-        <p class="price-sub">A website plus a working pipeline</p>
+        <p class="price-sub" data-i18n="p3.sub">A website plus a working pipeline</p>
         <ul>
-          <li>Everything in Growth</li>
-          <li>One custom automation built</li>
-          <li>Content or follow-up pipeline</li>
-          <li>Written documentation</li>
-          <li>60 days support</li>
+          <li data-i18n="p3.l1">Everything in Growth</li>
+          <li data-i18n="p3.l2">One custom automation built</li>
+          <li data-i18n="p3.l3">Content or follow-up pipeline</li>
+          <li data-i18n="p3.l4">Written documentation</li>
+          <li data-i18n="p3.l5">60 days support</li>
         </ul>
-        <a href="#contact" class="btn btn-ghost full">Get a quote</a>
+        <a href="#contact" class="btn btn-ghost full" data-i18n="nav.quote">Get a quote</a>
       </article>
     </div>
 
-    <p class="price-foot reveal d3">
+    <p class="price-foot reveal d3" data-i18n="pr.foot">
       <b>Custom systems</b> — multi-system pipelines, interactive builds, video production —
       are quoted after a free scoping call, typically <b>$5,000–$15,000</b>.
     </p>
@@ -271,9 +275,9 @@
   <div class="wrap">
     <div class="sec-head">
       <span class="sec-n" aria-hidden="true">04</span>
-      <span class="eyebrow reveal">Care plans</span>
-      <h2 class="reveal d1">A site nobody maintains <span class="grad">stops earning</span>.</h2>
-      <p class="lead reveal d2">
+      <span class="eyebrow reveal" data-i18n="care.eyebrow">Care plans</span>
+      <h2 class="reveal d1" data-i18n="care.h2">A site nobody maintains <span class="grad">stops earning</span>.</h2>
+      <p class="lead reveal d2" data-i18n="care.lead">
         Every project includes 30 days of Care free. After that, pick a plan or walk away —
         you own everything either way.
       </p>
@@ -281,46 +285,46 @@
 
     <div class="plan-grid">
       <article class="plan reveal">
-        <h3>Care</h3>
-        <div class="pm">$149<small>/mo</small></div>
+        <h3 data-i18n="c1.h3">Care</h3>
+        <div class="pm">$149<small data-i18n="care.mo">/mo</small></div>
         <ul>
-          <li>Hosting management + SSL</li>
-          <li>Security updates &amp; backups</li>
-          <li>Uptime monitoring</li>
-          <li>Up to 1 hr of content edits</li>
-          <li>Monthly health report</li>
+          <li data-i18n="c1.l1">Hosting management + SSL</li>
+          <li data-i18n="c1.l2">Security updates &amp; backups</li>
+          <li data-i18n="c1.l3">Uptime monitoring</li>
+          <li data-i18n="c1.l4">Up to 1 hr of content edits</li>
+          <li data-i18n="c1.l5">Monthly health report</li>
         </ul>
       </article>
 
       <article class="plan pick reveal d1">
-        <h3>Growth</h3>
-        <div class="pm">$399<small>/mo</small></div>
+        <h3 data-i18n="c2.h3">Growth</h3>
+        <div class="pm">$399<small data-i18n="care.mo">/mo</small></div>
         <ul>
-          <li>Everything in Care</li>
-          <li>Up to 4 hrs of changes</li>
-          <li>Monthly performance &amp; SEO review call</li>
-          <li>Review-request monitoring</li>
-          <li>Quarterly content refresh</li>
+          <li data-i18n="c2.l1">Everything in Care</li>
+          <li data-i18n="c2.l2">Up to 4 hrs of changes</li>
+          <li data-i18n="c2.l3">Monthly performance &amp; SEO review call</li>
+          <li data-i18n="c2.l4">Review-request monitoring</li>
+          <li data-i18n="c2.l5">Quarterly content refresh</li>
         </ul>
       </article>
 
       <article class="plan reveal d2">
-        <h3>Systems</h3>
-        <div class="pm">$899<small>/mo</small></div>
+        <h3 data-i18n="c3.h3">Systems</h3>
+        <div class="pm">$899<small data-i18n="care.mo">/mo</small></div>
         <ul>
-          <li>Everything in Growth</li>
-          <li>Automation monitoring &amp; tuning</li>
-          <li>Up to 10 hrs build time</li>
-          <li>Priority same-day response</li>
-          <li>Quarterly strategy review</li>
+          <li data-i18n="c3.l1">Everything in Growth</li>
+          <li data-i18n="c3.l2">Automation monitoring &amp; tuning</li>
+          <li data-i18n="c3.l3">Up to 10 hrs build time</li>
+          <li data-i18n="c3.l4">Priority same-day response</li>
+          <li data-i18n="c3.l5">Quarterly strategy review</li>
         </ul>
       </article>
     </div>
 
     <div class="cadence reveal d3">
-      <div class="cad"><b>Monthly</b><p>Automated health report: uptime, traffic, form submissions, automation runs — emailed, no chasing.</p></div>
-      <div class="cad"><b>Quarterly</b><p>A 30-minute review call. What worked, what didn't, what changes next quarter.</p></div>
-      <div class="cad"><b>Annually</b><p>Full site and systems audit with a written improvement plan for the year ahead.</p></div>
+      <div class="cad"><b data-i18n="cad1.b">Monthly</b><p data-i18n="cad1.p">Automated health report: uptime, traffic, form submissions, automation runs — emailed, no chasing.</p></div>
+      <div class="cad"><b data-i18n="cad2.b">Quarterly</b><p data-i18n="cad2.p">A 30-minute review call. What worked, what didn't, what changes next quarter.</p></div>
+      <div class="cad"><b data-i18n="cad3.b">Annually</b><p data-i18n="cad3.p">Full site and systems audit with a written improvement plan for the year ahead.</p></div>
     </div>
   </div>
 </section>
@@ -330,19 +334,19 @@
   <div class="wrap">
     <div class="sec-head">
       <span class="sec-n" aria-hidden="true">05</span>
-      <span class="eyebrow reveal">How it works</span>
-      <h2 class="reveal d1">Four steps. <span class="grad">No mystery.</span></h2>
+      <span class="eyebrow reveal" data-i18n="ps.eyebrow">How it works</span>
+      <h2 class="reveal d1" data-i18n="ps.h2">Four steps. <span class="grad">No mystery.</span></h2>
     </div>
     <div class="steps">
-      <div class="step reveal"><h3>Free scoping call</h3><p>20 minutes. We ask what the business actually needs and say straight away if we're not the right fit.</p></div>
-      <div class="step reveal d1"><h3>Fixed quote</h3><p>Written scope, fixed price, delivery date — approved before any work starts.</p></div>
-      <div class="step reveal d2"><h3>We build it</h3><p>Progress on a real URL, not in status meetings. Questions answered same day.</p></div>
-      <div class="step reveal d3"><h3>Launch + care</h3><p>It goes live, you get documentation and every credential, and the care plan keeps it healthy.</p></div>
+      <div class="step reveal"><h3 data-i18n="st1.h3">Free scoping call</h3><p data-i18n="st1.p">20 minutes. We ask what the business actually needs and say straight away if we're not the right fit.</p></div>
+      <div class="step reveal d1"><h3 data-i18n="st2.h3">Fixed quote</h3><p data-i18n="st2.p">Written scope, fixed price, delivery date — approved before any work starts.</p></div>
+      <div class="step reveal d2"><h3 data-i18n="st3.h3">We build it</h3><p data-i18n="st3.p">Progress on a real URL, not in status meetings. Questions answered same day.</p></div>
+      <div class="step reveal d3"><h3 data-i18n="st4.h3">Launch + care</h3><p data-i18n="st4.p">It goes live, you get documentation and every credential, and the care plan keeps it healthy.</p></div>
     </div>
 
     <div class="engine-note reveal d2">
-      <h3>Why our pricing holds</h3>
-      <p>
+      <h3 data-i18n="eng.h3">Why our pricing holds</h3>
+      <p data-i18n="eng.p">
         We've spent years building our own products, so the repetitive parts of a build — testing,
         deployment, QA checks — already run through tooling we wrote and maintain. That's time we
         don't bill you for, and it's why we can quote a fixed price and hold it. No office, no sales
@@ -357,33 +361,33 @@
   <div class="wrap">
     <div class="sec-head">
       <span class="sec-n" aria-hidden="true">06</span>
-      <span class="eyebrow reveal">Straight answers</span>
-      <h2 class="reveal d1">Questions we get asked</h2>
+      <span class="eyebrow reveal" data-i18n="faq.eyebrow">Straight answers</span>
+      <h2 class="reveal d1" data-i18n="faq.h2">Questions we get asked</h2>
     </div>
     <div class="faq reveal d1">
       <details>
-        <summary>How can a small studio deliver this fast?</summary>
-        <p>Years of building our own products means the repetitive parts of a web build are already solved — our testing, deployment and QA tooling is written and battle-tested. We spend our time on the parts that are specific to your business, not reinventing the plumbing. Every client-facing deliverable is reviewed and approved by a person before it ships, and you always have someone to call.</p>
+        <summary data-i18n="q1.s">How can a small studio deliver this fast?</summary>
+        <p data-i18n="q1.p">Years of building our own products means the repetitive parts of a web build are already solved — our testing, deployment and QA tooling is written and battle-tested. We spend our time on the parts that are specific to your business, not reinventing the plumbing. Every client-facing deliverable is reviewed and approved by a person before it ships, and you always have someone to call.</p>
       </details>
       <details>
-        <summary>Do I own the website?</summary>
-        <p>Completely. You own the domain, the hosting account and the code. Every credential and the documentation are handed over at launch. We don't hold sites hostage behind a monthly fee — care plans are optional and cancellable any time.</p>
+        <summary data-i18n="q2.s">Do I own the website?</summary>
+        <p data-i18n="q2.p">Completely. You own the domain, the hosting account and the code. Every credential and the documentation are handed over at launch. We don't hold sites hostage behind a monthly fee — care plans are optional and cancellable any time.</p>
       </details>
       <details>
-        <summary>What if I don't like it?</summary>
-        <p>The first payment covers the build to a reviewable state. If what you see doesn't match what we agreed in writing, you don't pay the second half and owe nothing further. Two rounds of revisions are included in every package.</p>
+        <summary data-i18n="q3.s">What if I don't like it?</summary>
+        <p data-i18n="q3.p">The first payment covers the build to a reviewable state. If what you see doesn't match what we agreed in writing, you don't pay the second half and owe nothing further. Two rounds of revisions are included in every package.</p>
       </details>
       <details>
-        <summary>Why is this cheaper than an agency?</summary>
-        <p>No office, no sales team, no account managers, and automation on the repetitive parts. You're paying for the build, not the overhead wrapped around it.</p>
+        <summary data-i18n="q4.s">Why is this cheaper than an agency?</summary>
+        <p data-i18n="q4.p">No office, no sales team, no account managers, and automation on the repetitive parts. You're paying for the build, not the overhead wrapped around it.</p>
       </details>
       <details>
-        <summary>How long does it take?</summary>
-        <p>Starter Site: typically 1–2 weeks from approved scope. Growth Site: 2–4 weeks. Automation work depends on how many systems are involved and gets a firm date in the written quote. If a date is going to slip, you hear it from us before it does.</p>
+        <summary data-i18n="q5.s">How long does it take?</summary>
+        <p data-i18n="q5.p">Starter Site: typically 1–2 weeks from approved scope. Growth Site: 2–4 weeks. Automation work depends on how many systems are involved and gets a firm date in the written quote. If a date is going to slip, you hear it from us before it does.</p>
       </details>
       <details>
-        <summary>Do I have to take a care plan?</summary>
-        <p>No. Every project includes 30 days free, then it continues at $149/mo unless you cancel — and cancelling is one email. Plenty of clients self-manage. We just won't pretend an unmaintained site keeps performing.</p>
+        <summary data-i18n="q6.s">Do I have to take a care plan?</summary>
+        <p data-i18n="q6.p">No. Every project includes 30 days free, then it continues at $149/mo unless you cancel — and cancelling is one email. Plenty of clients self-manage. We just won't pretend an unmaintained site keeps performing.</p>
       </details>
     </div>
   </div>
@@ -393,9 +397,9 @@
 <section id="contact">
   <div class="wrap">
     <div class="cta reveal">
-      <span class="eyebrow" style="justify-content:center">Start here</span>
-      <h2>Tell us what you need built.</h2>
-      <p class="lead">
+      <span class="eyebrow" style="justify-content:center" data-i18n="ct.eyebrow">Start here</span>
+      <h2 data-i18n="ct.h2">Tell us what you need built.</h2>
+      <p class="lead" data-i18n="ct.lead">
         Every real inquiry gets a reply within one business day — a quote, a question,
         or an honest "we're not the right studio for this."
       </p>
@@ -407,50 +411,50 @@
       <form id="lead-form" class="form reveal d1"
             action="https://formsubmit.co/digitalconsultingstudios@gmail.com" method="POST">
         <div class="field full">
-          <label for="f-name">Your name</label>
+          <label for="f-name" data-i18n="f.name">Your name</label>
           <input id="f-name" name="name" required autocomplete="name">
         </div>
         <div class="field">
-          <label for="f-email">Email</label>
+          <label for="f-email" data-i18n="f.email">Email</label>
           <input id="f-email" name="email" type="email" required autocomplete="email">
         </div>
         <div class="field">
-          <label for="f-phone">Phone (optional)</label>
+          <label for="f-phone" data-i18n="f.phone">Phone (optional)</label>
           <input id="f-phone" name="phone" autocomplete="tel">
         </div>
         <div class="field">
-          <label for="f-service">What do you need?</label>
+          <label for="f-service" data-i18n="f.service">What do you need?</label>
           <select id="f-service" name="service">
-            <option>Business website</option>
-            <option>Automation / pipeline</option>
-            <option>Content system</option>
-            <option>Game / interactive</option>
-            <option>Video &amp; motion</option>
-            <option>Digital products</option>
-            <option>Not sure yet</option>
+            <option data-i18n="f.o1">Business website</option>
+            <option data-i18n="f.o2">Automation / pipeline</option>
+            <option data-i18n="f.o3">Content system</option>
+            <option data-i18n="f.o4">Game / interactive</option>
+            <option data-i18n="f.o5">Video &amp; motion</option>
+            <option data-i18n="f.o6">Digital products</option>
+            <option data-i18n="f.o7">Not sure yet</option>
           </select>
         </div>
         <div class="field">
-          <label for="f-budget">Budget range</label>
+          <label for="f-budget" data-i18n="f.budget">Budget range</label>
           <select id="f-budget" name="budget">
-            <option>Under $1,500</option>
-            <option>$1,500 – $3,500</option>
-            <option>$3,500 – $7,500</option>
-            <option>$7,500 – $15,000</option>
-            <option>$15,000+</option>
-            <option>Not sure yet</option>
+            <option data-i18n="f.b1">Under $1,500</option>
+            <option data-i18n="f.b2">$1,500 – $3,500</option>
+            <option data-i18n="f.b3">$3,500 – $7,500</option>
+            <option data-i18n="f.b4">$7,500 – $15,000</option>
+            <option data-i18n="f.b5">$15,000+</option>
+            <option data-i18n="f.o7">Not sure yet</option>
           </select>
         </div>
         <div class="field full">
-          <label for="f-msg">Tell us about the project</label>
-          <textarea id="f-msg" name="message" required
+          <label for="f-msg" data-i18n="f.msg">Tell us about the project</label>
+          <textarea id="f-msg" name="message" required data-i18n-placeholder="f.ph"
                     placeholder="What's the business, and what's not working right now?"></textarea>
         </div>
         <input type="hidden" name="_subject" value="New project inquiry — Digital Consulting Studios website">
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_next" value="https://mrjcarrazco.github.io/digital-consulting-studios/?sent=1#contact">
-        <button type="submit" class="btn btn-primary full">Send project brief →</button>
-        <p class="form-note" id="form-status">
+        <button type="submit" class="btn btn-primary full" data-i18n="f.send">Send project brief →</button>
+        <p class="form-note" id="form-status" data-i18n="f.note">
           No newsletter, no automated sales sequence. "Not sure yet" is a perfectly good answer on budget.
         </p>
       </form>
@@ -458,7 +462,7 @@
       <aside class="reveal d2">
         <div class="card contact-card glow-card">
           <div class="ico" aria-hidden="true">&#9993;&#65039;</div>
-          <h3>Direct contact</h3>
+          <h3 data-i18n="as1.h3">Direct contact</h3>
           <p>
             <a href="mailto:digitalconsultingstudios@gmail.com">digitalconsultingstudios@gmail.com</a><br>
             <a href="tel:+19074147574">(907) 414-7574</a>
@@ -466,13 +470,13 @@
         </div>
         <div class="card contact-card glow-card">
           <div class="ico" aria-hidden="true">&#9201;&#65039;</div>
-          <h3>What happens next</h3>
-          <p>1. We read your brief.<br>2. A short call if it's a fit.<br>3. Written scope + fixed price.<br>4. Build starts.</p>
+          <h3 data-i18n="as2.h3">What happens next</h3>
+          <p data-i18n="as2.p">1. We read your brief.<br>2. A short call if it's a fit.<br>3. Written scope + fixed price.<br>4. Build starts.</p>
         </div>
         <div class="card contact-card glow-card">
           <div class="ico" aria-hidden="true">&#128196;</div>
-          <h3>How we work</h3>
-          <p>Fixed price agreed up front. 50% to start, 50% on delivery. Full ownership handed over at launch.</p>
+          <h3 data-i18n="as3.h3">How we work</h3>
+          <p data-i18n="as3.p">Fixed price agreed up front. 50% to start, 50% on delivery. Full ownership handed over at launch.</p>
         </div>
       </aside>
     </div>
@@ -488,7 +492,7 @@
           <img class="logo-mark" src="assets/logo.svg" alt="">
           <span class="brand-text"><b>Digital Consulting</b><span>Studios</span></span>
         </a>
-        <p style="font-size:.9rem;max-width:34ch">
+        <p style="font-size:.9rem;max-width:34ch" data-i18n="ft.tag">
           A digital studio building websites, automation and content systems
           for businesses that want output, not overhead.
         </p>
@@ -496,40 +500,41 @@
              once filed. Do not add before it is real. -->
       </div>
       <div>
-        <h4>Services</h4>
+        <h4 data-i18n="ft.services">Services</h4>
         <ul>
-          <li><a href="#services">Business websites</a></li>
-          <li><a href="#services">Automation &amp; pipelines</a></li>
-          <li><a href="#services">Content systems</a></li>
-          <li><a href="#services">Game, video &amp; products</a></li>
+          <li><a href="#services" data-i18n="ft.sv1">Business websites</a></li>
+          <li><a href="#services" data-i18n="ft.sv2">Automation &amp; pipelines</a></li>
+          <li><a href="#services" data-i18n="ft.sv3">Content systems</a></li>
+          <li><a href="#services" data-i18n="ft.sv4">Game, video &amp; products</a></li>
         </ul>
       </div>
       <div>
-        <h4>Studio</h4>
+        <h4 data-i18n="ft.studio">Studio</h4>
         <ul>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#care">Care plans</a></li>
-          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#work" data-i18n="nav.work">Work</a></li>
+          <li><a href="#pricing" data-i18n="nav.pricing">Pricing</a></li>
+          <li><a href="#care" data-i18n="nav.care">Care plans</a></li>
+          <li><a href="#faq" data-i18n="ft.faq">FAQ</a></li>
         </ul>
       </div>
       <div>
-        <h4>Get in touch</h4>
+        <h4 data-i18n="ft.touch">Get in touch</h4>
         <ul>
           <li><a href="mailto:digitalconsultingstudios@gmail.com">digitalconsultingstudios@gmail.com</a></li>
           <li><a href="tel:+19074147574">(907) 414-7574</a></li>
-          <li><a href="#contact">Request a quote</a></li>
-          <li class="muted">Alaska, USA</li>
+          <li><a href="#contact" data-i18n="ft.quote">Request a quote</a></li>
+          <li class="muted" data-i18n="ft.loc">Alaska, USA</li>
         </ul>
       </div>
     </div>
     <div class="foot-bot">
-      <span>&copy; <span data-year>2026</span> Digital Consulting Studios. All rights reserved.</span>
-      <span>Built and maintained in-house.</span>
+      <span>&copy; <span data-year>2026</span> Digital Consulting Studios. <span data-i18n="ft.rights">All rights reserved.</span></span>
+      <span data-i18n="ft.built">Built and maintained in-house.</span>
     </div>
   </div>
 </footer>
 
+<script src="js/i18n.js"></script>
 <script src="js/site.js"></script>
 </body>
 </html>
