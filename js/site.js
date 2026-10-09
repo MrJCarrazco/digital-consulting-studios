@@ -387,6 +387,9 @@
   /* ---------- year ---------- */
   $$('[data-year]').forEach(el => el.textContent = new Date().getFullYear());
 
+  /* ---------- safety net: never leave content hidden ---------- */
+  setTimeout(() => $$('.reveal').forEach(el => el.classList.add('in')), 2500);
+
   /* ---------- post-submit thanks (FormSubmit redirects back with ?sent=1) ---------- */
   if (new URLSearchParams(location.search).get('sent') === '1') {
     const status = $('#form-status');
