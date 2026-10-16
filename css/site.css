@@ -635,3 +635,13 @@ footer li.muted{color:var(--txt-dim)}
 
 /* ---------- work-card canvases: scale to card width (mobile overflow fix) ---------- */
 .case-shot canvas[data-viz]{width:100%;height:100%;display:block;max-width:100%}
+
+/* ---------- growth & marketing add-ons ---------- */
+.addon-grid{align-items:stretch}
+.addon-grid .card{display:flex;flex-direction:column}
+.addon-price{
+  margin-top:auto;padding-top:14px;border-top:1px solid var(--line);
+  font-size:.95rem;font-weight:700;letter-spacing:-.01em;color:var(--txt);
+}
+.addon-grid .card p{margin-bottom:16px}
+.addon-cta{display:flex;justify-content:center;margin-top:34px}
