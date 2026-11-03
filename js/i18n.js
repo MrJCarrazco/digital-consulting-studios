@@ -108,7 +108,7 @@
 
       'care.eyebrow': 'Care plans',
       'care.h2': 'A site nobody maintains <span class="grad">stops earning</span>.',
-      'care.lead': 'Every project includes 30 days of Care free. After that, pick a plan or walk away — you own everything either way.',
+      'care.lead': 'Every project includes 30 days of Care free. After that, pick a plan or walk away — you own everything either way. Paid Care never starts automatically; it begins only when you opt in.',
       'care.mo': '/mo',
       'c1.h3': 'Care',
       'c1.l1': 'Hosting management + SSL', 'c1.l2': 'Security patches, backups &amp; bug fixes',
@@ -188,7 +188,7 @@
       'q5.s': 'How long does it take?',
       'q5.p': 'Starter Site: typically 1–2 weeks from approved scope. Growth Site: 2–4 weeks. Automation work depends on how many systems are involved and gets a firm date in the written quote. If a date is going to slip, you hear it from us before it does.',
       'q6.s': 'Do I have to take a care plan?',
-      'q6.p': 'No. Every project includes 30 days free, then it continues at $149/mo unless you cancel — and cancelling is one email. Plenty of clients self-manage. We just won\'t pretend an unmaintained site keeps performing.',
+      'q6.p': 'No. Every project includes 30 days free. After that, nothing continues and nothing is billed unless you pick a plan — paid Care starts only if you opt in. If you do pick one, cancelling is one email, any time. Plenty of clients self-manage. We just won\'t pretend an unmaintained site keeps performing.',
 
       'ct.eyebrow': 'Start here',
       'ct.h2': 'Tell us what you need built.',
@@ -333,7 +333,7 @@
 
       'care.eyebrow': 'Planes de mantenimiento',
       'care.h2': 'Un sitio que nadie mantiene <span class="grad">deja de generar</span>.',
-      'care.lead': 'Cada proyecto incluye 30 días de Mantenimiento gratis. Después, elija un plan o siga por su cuenta — todo es suyo de cualquier forma.',
+      'care.lead': 'Cada proyecto incluye 30 días de Mantenimiento gratis. Después, elija un plan o siga por su cuenta — todo es suyo de cualquier forma. El Care de pago nunca comienza automáticamente; comienza solo cuando usted lo activa.',
       'care.mo': '/mes',
       'c1.h3': 'Mantenimiento',
       'c1.l1': 'Gestión de hosting + SSL', 'c1.l2': 'Parches de seguridad, respaldos y corrección de errores',
@@ -413,7 +413,7 @@
       'q5.s': '¿Cuánto tarda?',
       'q5.p': 'Sitio Inicial: típicamente 1–2 semanas desde el alcance aprobado. Sitio de Crecimiento: 2–4 semanas. El trabajo de automatización depende de cuántos sistemas participan y recibe una fecha firme en el presupuesto por escrito. Si una fecha va a moverse, se entera por nosotros antes de que pase.',
       'q6.s': '¿Estoy obligado a tomar un plan de mantenimiento?',
-      'q6.p': 'No. Cada proyecto incluye 30 días gratis; después continúa a $149/mes salvo que cancele — y cancelar es un correo. Muchos clientes se administran solos. Simplemente no vamos a fingir que un sitio sin mantenimiento sigue rindiendo.',
+      'q6.p': 'No. Cada proyecto incluye 30 días gratis. Después, nada continúa y nada se factura a menos que elija un plan — el Care de pago comienza solo si usted lo activa. Si elige uno, cancelar es un correo, en cualquier momento. Muchos clientes se administran solos. Simplemente no vamos a fingir que un sitio sin mantenimiento sigue rindiendo.',
 
       'ct.eyebrow': 'Empiece aquí',
       'ct.h2': 'Cuéntenos qué necesita construir.',
