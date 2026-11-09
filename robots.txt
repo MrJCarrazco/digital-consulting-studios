@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mrjcarrazco.github.io/digital-consulting-studios/sitemap.xml
